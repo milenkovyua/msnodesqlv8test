@@ -1,0 +1,31 @@
+{
+  "name": "msnodesqlv8test",
+  "version": "1.0.0",
+  "description": "Reproducing a bug with msnodesqlv8 driver",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milenkovyua/msnodesqlv8test.git"
+  },
+  "keywords": [
+    "msnodesqlv8",
+    "decimal",
+    "tvp",
+    "bug"
+  ],
+  "author": "Yuliyan Milenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milenkovyua/msnodesqlv8test/issues"
+  },
+  "homepage": "https://github.com/milenkovyua/msnodesqlv8test#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^8.2.0",
+    "msnodesqlv8": "^1.1.2",
+    "mssql": "^6.2.0"
+  }
+}
