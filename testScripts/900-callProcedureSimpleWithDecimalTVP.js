@@ -9,7 +9,7 @@ module.exports = [
         request.input('tvpParam', /*sql.TVP,*/ tvpParam);
         return request.execute('[testschema].[simple.withDecimalTVP]');
     },
-    // This will fail and crash the node.js process instance
+    // This will transform the data before passing it to SQL Server instance
     function callProcedureSimpleWithDecimalTVPFail(pool) {
         const tvpParam = tableTypes.get('testschema.withDecimalTypeTT');
         tvpParam.rows.add(30.11); // percentage
