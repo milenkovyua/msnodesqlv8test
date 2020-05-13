@@ -6,6 +6,8 @@ module.exports = [
     require('./500-callSimpleTVPProcedure'),
     require('./700-createProcedureSimpleWithDateTimeTVP'),
     require('./700-createProcedureSimpleWithDecimalTVP'),
-    ...require('./800-callProcedureSimpleWithDateTime2'),
-    ...require('./900-callProcedureSimpleWithDecimalTVP')
+    ...require('./750-createOtherProcedures'),
+    // ...require('./800-callProcedureSimpleWithDateTime2'),
+    ...require('./900-callProcedureSimpleWithDecimalTVP'),
+    ...require('./950-callOtherProcedures')
 ]

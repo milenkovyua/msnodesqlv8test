@@ -13,7 +13,6 @@ module.exports = [
     function callProcedureSimpleWithDateTimeTVPFail(pool) {
         const tvpParam = tableTypes.get('testschema.withDateTimeTypeTT');
         tvpParam.rows.add(new Date('2020-05-07')); // date
-        tvpParam.rows.add(new Date('2020-05-08')); // date
         const request = pool.request();
         request.input('tvpParam', /*sql.TVP,*/ tvpParam);
         return request.execute('[testschema].[simple.withDateTimeTVP]');
