@@ -4,6 +4,8 @@ module.exports = [
     ...require('./300-createTableTypes'),
     require('./400-createSimpleTVPProcedure'),
     require('./500-callSimpleTVPProcedure'),
+    require('./550-createSimpleDecimalProcedure'),
+    require('./551-callSimpleDecimalProcedure'),
     require('./700-createProcedureSimpleWithDateTimeTVP'),
     require('./700-createProcedureSimpleWithDecimalTVP'),
     ...require('./750-createOtherProcedures'),
